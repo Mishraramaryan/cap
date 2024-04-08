@@ -4,8 +4,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #container{
+            width: 1440px;
+            height: 1000px;
+            border: 1px solid black;
+            display: flex;
+            
+        }
+        #container > div{
+            width: 50%;
+            border: 1px solid black;
+            
+        }
+        #leftbox{
+            background-color: rgba(247, 190, 141, 0.877);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #leftbox img{
+            height: 144px;
+            width: 234px;
+            /*display: flex;
+            align-items: center;
+            justify-content: center;*/
+        }
+        #rightbox{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        #rightbox > div{
+            
+            width: 556px;
+            height:656px;
+            background-color: #ffffff;
+            box-shadow: 0px 4px 35px 0px #00000014;
+            border-radius: 20px 20px 20px 20px;
+            padding: 60px 46px;
+            box-sizing: border-box;
+        }
+        #element1{
+            width:186px;
+            height: 30px;
+            font-family: poppins;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 10px;
+            text-align: left;
+        }
+        #element2{
+            width:200px;
+            height: 83px;
+            font-family: poppins;
+            font-size: 55px;
+            font-weight: 500;
+            line-height: 20px;
+            text-align: left;
+        }
+        #element3{
+            width:306px;
+            height: 24px;
+            font-family: poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 10px;
+            text-align: left;
+        }
+        #element4{
+            width:465.22px;
+            height:57.22px;
+            border: 1px solid skyblue;
+            border-radius: 9px;
+            border: 1px 0px 0px 0px;
+
+        }
+        #element5{
+            width:306px;
+            height: 24px;
+            font-family: poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 10px;
+            text-align: left;
+        }
+        #element6{
+            width:465.22px;
+            height:57.22px;
+            border: 1px solid skyblue;
+            border-radius: 9px;
+            border: 1px 0px 0px 0px;
+        }
+        #element7{
+            /*width:111.43px;*/
+            height: 20.03px;
+            font-family: poppins;
+            font-size: 13px;
+            font-weight: 400;
+            /*line-height: 10px;*/
+            text-align: right;
+            color: red;
+            
+        }
+        #element8{
+            width: 465.02px;
+            height:54.22px;
+            background-color: peru;
+            border-radius: 14px;
+            border:none;
+            color: white;
+        }
+        #rightbox > div{
+            padding-top: 5px;
+        }
+        #element9{
+            height: 20.03px;
+            font-family: poppins;
+            font-size: 13px;
+            font-weight: 400;
+            /*line-height: 10px;*/
+            text-align: right;
+            color: red;
+        }
+    </style>
 </head>
 <body>
-    <h1>this is my initial code</h1>
+    <div id="container">
+        <div id="leftbox">
+            <img src="C:\Users\Ram Narayan\Desktop\th.jpg" alt="">
+        </div>
+        <div id="rightbox">
+            <div>
+            <p id="element1">Welcome To Masai</p>
+            <h1 id="element2">Sign Up</h1>
+            <p id="element3">Enter your username or email address</p>
+            <input id="element4" type="text" placeholder="username or email address">
+            <p id="element5">Enter your password</p>
+            <input id="element6" type="text" placeholder="password">
+            <p id="element7">Forgot password</p>
+            <button id="element8">Sign in</button>
+            <p id="element9">No account? Sign up</p>
+        </div>
+        </div>
+
+    </div>
 </body>
 </html>
